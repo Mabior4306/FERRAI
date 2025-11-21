@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utilities */
+:root{
+  --brand-primary: #4F46E5;
+  --accent: #F97316;
+}
+
+body { @apply bg-white text-gray-900 dark:bg-gray-900 dark:text-white; }
